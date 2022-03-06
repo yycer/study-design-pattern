@@ -3,6 +3,8 @@ package com.yyc.studydesignpattern.structural.facade;
 /**
  * @author Frankie
  * @since 2022-03-06 3:47 PM
+ *
+ * Facade本意是指建筑的门面，代表将其错综复杂的细节隐藏，仅暴露给用户简单的接口。
  */
 public class BankAccountFacade {
 
