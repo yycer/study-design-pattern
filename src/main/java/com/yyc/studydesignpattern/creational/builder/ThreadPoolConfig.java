@@ -1,4 +1,4 @@
-package com.yyc.studydesignpattern.creational.builder2;
+package com.yyc.studydesignpattern.creational.builder;
 
 import lombok.Getter;
 import lombok.ToString;

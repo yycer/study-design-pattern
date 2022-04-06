@@ -1,4 +1,4 @@
-package com.yyc.studydesignpattern.creational.builder2;
+package com.yyc.studydesignpattern.creational.builder;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -23,10 +23,10 @@ public class Client {
         //         .build();
 
         // 3. minThreadCount > maxThreadCount
-        ThreadPoolConfig pool3 = new Builder()
-                .setName("pool3")
-                .setMaxThreadCount(10)
-                .setMinThreadCount(30)
-                .build();
+        // ThreadPoolConfig pool3 = new Builder()
+        //         .setName("pool3")
+        //         .setMaxThreadCount(10)
+        //         .setMinThreadCount(30)
+        //         .build();
     }
 }
