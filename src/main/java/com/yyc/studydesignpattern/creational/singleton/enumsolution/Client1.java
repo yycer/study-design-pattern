@@ -1,4 +1,4 @@
-package com.yyc.studydesignpattern.creational.singleton;
+package com.yyc.studydesignpattern.creational.singleton.enumsolution;
 
 /**
  * 枚举法
@@ -8,17 +8,13 @@ package com.yyc.studydesignpattern.creational.singleton;
  * 3. 可防止反序列化重新创建新的对象？
  * 缺点:
  */
-public class SingletonTest4 {
+public class Client1 {
     public static void main(String[] args) {
-        Singleton4 instance1 = Singleton4.INSTANCE;
-        Singleton4 instance2 = Singleton4.INSTANCE;
+        Singleton instance1 = Singleton.INSTANCE;
+        Singleton instance2 = Singleton.INSTANCE;
 
         System.out.println("instance1 == instance2: " + (instance1 == instance2));
         System.out.println(instance1.hashCode());
         System.out.println(instance2.hashCode());
     }
-}
-
-enum Singleton4 {
-    INSTANCE
 }

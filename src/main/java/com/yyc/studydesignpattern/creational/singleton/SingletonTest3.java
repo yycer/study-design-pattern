@@ -18,7 +18,7 @@ public class SingletonTest3 {
 
 class Singleton3 {
     private static class SingletonInstance3 {
-        private static Singleton3 INSTANCE = new Singleton3();
+        private final static Singleton3 INSTANCE = new Singleton3();
     }
     public static Singleton3 getInstance() {
         return SingletonInstance3.INSTANCE;
